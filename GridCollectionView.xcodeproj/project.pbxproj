@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		24E8D5A92892927700857C8B /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E8D5A82892927700857C8B /* Item.swift */; };
+		24E8D5A92892927700857C8B /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E8D5A82892927700857C8B /* ItemModel.swift */; };
 		EF855E892878851500BE2B7D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF855E882878851500BE2B7D /* AppDelegate.swift */; };
 		EF855E8B2878851500BE2B7D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF855E8A2878851500BE2B7D /* SceneDelegate.swift */; };
 		EF855E902878851500BE2B7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF855E8E2878851500BE2B7D /* Main.storyboard */; };
@@ -18,7 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		24E8D5A82892927700857C8B /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		24E8D5A82892927700857C8B /* ItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
 		EF855E852878851500BE2B7D /* GridCollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GridCollectionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF855E882878851500BE2B7D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EF855E8A2878851500BE2B7D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -44,7 +44,7 @@
 		24E8D5A3289291E200857C8B /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				24E8D5A82892927700857C8B /* Item.swift */,
+				24E8D5A82892927700857C8B /* ItemModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -178,7 +178,7 @@
 			files = (
 				EF855E9D2878853000BE2B7D /* GridCollectionViewController.swift in Sources */,
 				EF855E9F2878853C00BE2B7D /* GridCell.swift in Sources */,
-				24E8D5A92892927700857C8B /* Item.swift in Sources */,
+				24E8D5A92892927700857C8B /* ItemModel.swift in Sources */,
 				EF855E892878851500BE2B7D /* AppDelegate.swift in Sources */,
 				EF855E8B2878851500BE2B7D /* SceneDelegate.swift in Sources */,
 			);
